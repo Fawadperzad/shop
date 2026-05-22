@@ -1,41 +1,47 @@
 # 🛒 Fullstack Shop System
 
-A modern fullstack e-commerce application built with Spring Boot, Spring Security, JWT authentication, and Angular frontend.
+This project is a modern fullstack e-commerce application developed with Spring Boot and Angular.  
+The goal of the project is to build a secure and scalable online shop system with authentication, product management, and order processing features.
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Technologies Used
 
 ### Backend
+- Java 17
 - Spring Boot
 - Spring Security
 - JWT Authentication
+- Spring Data JPA / Hibernate
 - MySQL
-- JPA / Hibernate
 - Maven
 
 ### Frontend
-- Angular (or React if used)
+- Angular
 - TypeScript
 - HTML / CSS
 
-### DevOps
-- Docker (optional)
+### Tools & DevOps
 - Git & GitHub
+- Docker 
+- Postman
 
 ---
 
-## ✨ Features
+## ✨ Main Features
 
-- User Registration & Login
-- JWT Authentication
-- Role-based Authorization (USER / ADMIN)
-- Product CRUD (Create, Read, Update, Delete)
-- Shopping Cart System
-- Order Checkout System
-- Admin Panel APIs
-- Secure API Design
+- User registration and login
+- JWT-based authentication
+- Role-based authorization (USER / ADMIN)
+- Product management (CRUD)
+- Shopping cart functionality
+- Order and checkout system
+- REST API architecture
+- Secure backend configuration
 
 ---
 
-## 🏗 Architecture
+## 🏗 Project Architecture
+
+```text
+Frontend → REST API → Spring Boot Backend → MySQL Database
